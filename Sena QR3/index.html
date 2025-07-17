@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SevSevil Kitchen - Menü</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-utensils"></i>
+                    <h1>SevSevil Kitchen</h1>
+                </div>
+                <p class="tagline">Slogan Kısmı</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <div class="nav-container">
+                <button class="nav-btn active" data-category="all">Tümü</button>
+                <button class="nav-btn" data-category="corba">Çorbalar</button>
+                <button class="nav-btn" data-category="ana-yemek">Ana Yemekler</button>
+                <button class="nav-btn" data-category="pilav">Pilavlar</button>
+                <button class="nav-btn" data-category="tatli">Tatlılar</button>
+                <button class="nav-btn" data-category="kahve">Kahveler</button>
+                <button class="nav-btn" data-category="icecek">İçecekler</button>
+            </div>
+        </nav>
+
+        <!-- Menu Grid -->
+        <main class="menu-container">
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-phone"></i> +90 539 505 7042</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Adres bilgisi buraya</p>
+                    <p><i class="fas fa-clock"></i> Her gün 11:00 - 22:00</p>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
